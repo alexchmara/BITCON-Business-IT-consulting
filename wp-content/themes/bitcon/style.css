@@ -1,0 +1,31 @@
+/*
+Theme Name: BITCON
+*/
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+}
+.site-top {
+  width: 100%;
+  background-color: #2F4F4F;
+}
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid red;
+}
+.container::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.logo{
+  background-color: #FFFAF0;
+  height: 60px;
+  float: left;
+  width: 100%;
+  padding: 2px 2px;
+}
