@@ -1,13 +1,11 @@
 <footer class="footer-site">
    <div class="container">
-     <div class="row">
        <div class="copyrigths">
-         &copy; 2017 BITCON
+         &copy; 2017 by BITCON
        </div>
        <div class="footer-logo">
-         <img src="" alt="">
+         <img src="<?php bloginfo('template_url'); ?>/images" alt="">
        </div>
-     </div>
    </div>
 </footer>
 <?php wp_footer(); ?>

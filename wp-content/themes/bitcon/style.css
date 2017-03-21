@@ -7,7 +7,7 @@ Theme Name: BITCON
 body {
   margin: 0 auto;
   font-family: 'Quicksand', sans-serif;
-  background-color: lightgray;
+  background-color: #7e7e7e;
 }
 /*fonty*/
 h1{
@@ -24,6 +24,10 @@ h2{
   text-decoration: none;
   text-align: center;
 }
+p{
+  color: white;
+  text-decoration: none;
+}
 /*header*/
 .site-top {
   width: 100%;
@@ -33,7 +37,7 @@ h2{
   width: 1300px;
   margin: 0 auto;
   position: relative;
-  /*border: 1px solid red;*/
+  border: 1px solid red;
 }
 .container::after {
   clear: both;
@@ -47,6 +51,14 @@ h2{
   float: left;
   width: 100%;
   padding: 2px 2px;
+  position: relative;
+}
+header,
+.logo-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 999;
 }
 /*section intro with paralax*/
 
@@ -90,3 +102,4 @@ h2{
   margin-left: 10px;
   margin-right: 20px;
 }
+/*section form*/
