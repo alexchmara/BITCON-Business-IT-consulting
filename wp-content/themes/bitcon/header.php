@@ -9,7 +9,7 @@
     <script>var templateUrl="<?php bloginfo('template_url'); ?>";</script>
     <script src="<?php bloginfo('template_url'); ?>/parallax.min.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/app.js"></script>
-    <!-- <?php wp_head(); ?> -->
+    <?php wp_head(); ?>
   </head>
   <body>
     <header class="site-top">

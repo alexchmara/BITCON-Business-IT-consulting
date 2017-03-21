@@ -24,9 +24,15 @@ h2{
   text-decoration: none;
   text-align: center;
 }
+h3{
+  font-size: 20px;
+  color: #000000;
+  margin: 0 auto;
+}
 p{
-  color: white;
+  color: #FFFAF0;
   text-decoration: none;
+  text-align: justify;
 }
 /*header*/
 .site-top {
@@ -37,7 +43,7 @@ p{
   width: 1300px;
   margin: 0 auto;
   position: relative;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 .container::after {
   clear: both;
@@ -63,9 +69,11 @@ header,
 /*section intro with paralax*/
 
 .parallax-window{
-    min-height: 400px;
-    background: transparent;
+  min-height: 400px;
+  background: transparent;
 }
+
+
 /*section descirption*/
 .description{
   width: 100%;
@@ -82,24 +90,32 @@ header,
 }
 .columns{
   display: flex;
-  flex-wrap: nowrap;
-  height: 300px;
+  height: 300 vh;
   background-color: #e78200;
   align-items: center;
+  justify-content: center;
 }
-.one{
-  width: 33.3%;
-  margin-left: 20px;
-  margin-right: 10px;
-}
-.two{
-  width: 33.3%;
-  margin-left: 10px;
-  margin-right: 10px;
-}
+.one,
+.two,
 .three{
   width: 33.3%;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 50px;
+  text-align: center;
 }
+
 /*section form*/
+
+/*footer*/
+.footer-site{
+  width: 100%;
+}
+.copyrights{
+  padding: 23px 50px;
+  float: left;
+}
+.social{
+  padding: 20px 50px;
+  float: right;
+}
