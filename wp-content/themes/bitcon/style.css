@@ -6,23 +6,41 @@ Theme Name: BITCON
 }
 body {
   margin: 0 auto;
-  background-color: #2F4F4F;
   font-family: 'Quicksand', sans-serif;
+  background-color: lightgray;
 }
+/*fonty*/
+h1{
+  margin: 0 auto;
+  font-size: 30px;
+  color: #FFFAF0;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+}
+h2{
+  font-size: 25px;
+  color: #FFFAF0;
+  text-decoration: none;
+  text-align: center;
+}
+/*header*/
 .site-top {
   width: 100%;
+  background-color: #FFFAF0;
 }
 .container {
   width: 1300px;
   margin: 0 auto;
   position: relative;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 .container::after {
   clear: both;
   content: "";
   display: block;
 }
+
 .logo{
   background-color: #FFFAF0;
   height: 60px;
@@ -30,13 +48,45 @@ body {
   width: 100%;
   padding: 2px 2px;
 }
-/*paralax*/
-.parallax-window {
+/*section intro with paralax*/
+
+.parallax-window{
     min-height: 400px;
     background: transparent;
 }
-.title{
-  color: #e78200;
-  font-size: 50px;
-  font-weight: bold;
+/*section descirption*/
+.description{
+  width: 100%;
+  background-color: #e78200;
+}
+.bg{
+ background-color: #e78200;
+ height: 300px;
+}
+/*section offer*/
+.offer{
+  width: 100%;
+  background-color: #e78200;
+}
+.columns{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 300px;
+  background-color: #e78200;
+  align-items: center;
+}
+.one{
+  width: 33.3%;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.two{
+  width: 33.3%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.three{
+  width: 33.3%;
+  margin-left: 10px;
+  margin-right: 20px;
 }

@@ -1,9 +1,21 @@
-
-        <section class="offer">
-          <div class="container">
-           <div class="row">
-                <img src="http://conceptodefinicion.de/wp-content/uploads/2015/08/naturaleza-e1439385445458.jpg" alt="">
-
-           </div>
-          </div>
-        </section>
+<section class="offer">
+  <div class="container">
+   <div class="columns">
+     <div class='one'>
+       <img src="<?php bloginfo('template_url'); ?>/images/keyboard.png" alt="">
+       <h2>IT</h2>
+       <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+     </div>
+     <div class='two'>
+        <img src="<?php bloginfo('template_url'); ?>/images/keyboard.png" alt="">
+        <h2>Dotacje na inwestycje</h2>
+        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+     </div>
+     <div class='three'>
+        <img src="<?php bloginfo('template_url'); ?>/images/keyboard.png" alt="">
+        <h2>Dotacje na badania i rozwój</h2>
+        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+     </div>
+   </div>
+  </div>
+</section>
