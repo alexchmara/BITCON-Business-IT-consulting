@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <title>BITCON | Business IT consulting</title>
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>var templateUrl="<?php bloginfo('template_url'); ?>";</script>
+    <script src="<?php bloginfo('template_url'); ?>/parallax.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/app.js"></script>
     <?php wp_head(); ?>
   </head>
   <body>

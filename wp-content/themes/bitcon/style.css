@@ -6,10 +6,11 @@ Theme Name: BITCON
 }
 body {
   margin: 0 auto;
+  background-color: #2F4F4F;
+  font-family: 'Quicksand', sans-serif;
 }
 .site-top {
   width: 100%;
-  background-color: #2F4F4F;
 }
 .container {
   width: 1300px;
@@ -28,4 +29,14 @@ body {
   float: left;
   width: 100%;
   padding: 2px 2px;
+}
+/*paralax*/
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+.title{
+  color: #e78200;
+  font-size: 50px;
+  font-weight: bold;
 }
