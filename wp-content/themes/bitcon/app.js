@@ -12,7 +12,7 @@ $(function() {
     }
 
 });
-$('.parallax-window').parallax({imageSrc: templateUrl+'/images/stock.jpg'});
+$('.parallax-window').parallax({imageSrc: templateUrl+'/images/meet.jpg'});
 
 
 });
