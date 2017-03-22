@@ -43,6 +43,11 @@ p{
   background-color: #FFFAF0;
   opacity: 0.93;
 }
+img{
+  top: -10px;
+  position: relative;
+
+}
 .container {
   width: 1300px;
   margin: 0 auto;
@@ -57,7 +62,7 @@ p{
 
 .logo{
   background-color: #FFFAF0;
-  height: 38px;
+  height: 35px;
   float: left;
   width: 100%;
   padding: 2px 2px;
@@ -70,10 +75,15 @@ header,
   top: 0px;
   z-index: 999;
 }
-
+a,
 li{
   float: right;
   list-style: none;
+  margin-left: 60px;
+  margin-left: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #1f1f14;
 }
 
 /*section intro with paralax*/
