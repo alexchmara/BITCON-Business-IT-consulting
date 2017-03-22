@@ -1,9 +1,15 @@
-<section class="form">
+<section class="news-contact">
   <div class="container">
-    <h2>Zapraszam do kontaktu</h2>
-     <form class="contact-form" action="index.html" method="post">
-       <input type="text" name="Imię i nazwisko" value="">
-     </form>
+   <div class="flex">
+    <div class="news">
+     <h2>Trwające nabory</h2>
+     <p>WRPO 1.2 B+R</p>
+    </div>
 
+    <div class="contact-form">
+      <h2>Zapraszam do kontaktu</h2>
+      <?php echo do_shortcode( '[contact-form-7 id="4" title="Formularz kontaktowy"]'); ?>
+    </div>
+   </div>
   </div>
 </section>
