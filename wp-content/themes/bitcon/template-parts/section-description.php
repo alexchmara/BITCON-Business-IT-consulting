@@ -1,4 +1,4 @@
-<section class="description">
+<section class="description" id="description">
      <div class="container">
         <div class="bg">
           <h1>OFERTA</h1>

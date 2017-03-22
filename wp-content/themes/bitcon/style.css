@@ -57,7 +57,7 @@ p{
 
 .logo{
   background-color: #FFFAF0;
-  height: 60px;
+  height: 38px;
   float: left;
   width: 100%;
   padding: 2px 2px;
@@ -70,6 +70,12 @@ header,
   top: 0px;
   z-index: 999;
 }
+
+li{
+  float: right;
+  list-style: none;
+}
+
 /*section intro with paralax*/
 
 

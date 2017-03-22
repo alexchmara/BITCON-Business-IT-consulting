@@ -15,10 +15,11 @@
   <body>
     <header class="site-top">
         <div class="container">
-          <div class="row">
-            <nav class="logo">
-              <a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo1res.png" alt="BITCON"></a>
-            </nav>
+          <ul class="menu logo">
+            <img src="<?php bloginfo('template_url'); ?>/images/logo1res.png" alt="BITCON">
+            <li><a href="#description">Usługi</a></li>
+            <li><a href="#offer">Oferta</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+          </ul>
         </div>
-      </div>
     </header>

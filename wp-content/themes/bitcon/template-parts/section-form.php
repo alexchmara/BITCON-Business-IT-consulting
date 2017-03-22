@@ -1,4 +1,4 @@
-<section class="news-contact">
+<section class="news-contact" id="news-contact">
   <div class="container">
    <div class="flex">
     <div class="news">
