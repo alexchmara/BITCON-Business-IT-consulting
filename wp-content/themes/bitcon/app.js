@@ -1,10 +1,11 @@
 $(function() {
 
     var nav = $(".logo");
-    navScrolled = ".logo-scrolled";
-    header = $('header').height();
+    var navScrolled = ".logo-scrolled";
+    var header = $('header').height();
+    var link = $('.menu').find('a');
 
-    $(window).scroll(function() {
+    $(window).scroll(function(event) {
         if ($(this).scrollTop() > header) {
             nav.addClass(navScrolled);
         } else {
@@ -13,18 +14,15 @@ $(function() {
 
     });
 
-    var link = $('.menu').find('a');
-
     link.on('click', function(event) {
         var href = $(this).attr('href');
         var posTop = $(href).position().top;
         $('body,html').animate({
-            scrollTop: posTop
-        }, 500);
+            scrollTop: posTop-header,
+        }, 550);
 
         return false;
     });
-
 
     $('.parallax-window').parallax({
         imageSrc: templateUrl + '/images/meet.jpg'

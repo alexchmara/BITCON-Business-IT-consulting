@@ -18,8 +18,8 @@
           <ul class="menu logo">
             <img src="<?php bloginfo('template_url'); ?>/images/logo1res.png" alt="BITCON">
             <li><a href="#news-contact">Kontakt</a></li>
-            <li><a href="#offer">Oferta</a></li>
-            <li><a href="#description">Usługi</a></li>
+            <li><a href="#offer">Usługi</a></li>
+            <li><a href="#description">Oferta</a></li>
           </ul>
         </div>
     </header>

@@ -43,10 +43,11 @@ p{
   background-color: #FFFAF0;
   opacity: 0.93;
 }
+
+
 img{
   top: -10px;
   position: relative;
-
 }
 .container {
   width: 1300px;
@@ -75,6 +76,7 @@ header,
   top: 0px;
   z-index: 999;
 }
+
 a,
 li{
   float: right;
