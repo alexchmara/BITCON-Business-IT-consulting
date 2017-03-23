@@ -62,30 +62,11 @@ p{
   opacity: 0.93;
 }
 
-@media (max-width: 500px){
-  .hamburger{
-    background-image: url('http://localhost/bitcon/wp-content/themes/bitcon/images/menu.png');
-    height: 30px;
-    width: 30px;
-    position: relative;
-    background-repeat: no-repeat;
-    float: right;
-  }
- li{
-  display: none;
- }
-
- .triangle{
-   display: none;
- }
-}
 .logobitcon{
   padding: 4px;
   position: absolute;
   z-index: 2;
 }
-
-
 .logo{
   background-color: #FFFAF0;
   height: 35px;
@@ -113,6 +94,22 @@ li{
   text-decoration: none;
   color: #1f1f14;
 }
+@media (max-width: 500px){
+ .hamburger{
+  background-image: url('http://localhost/bitcon/wp-content/themes/bitcon/images/menu.png');
+  height: 30px;
+  width: 30px;
+  position: relative;
+  background-repeat: no-repeat;
+  float: right;
+ }
+ li{
+  display: none;
+ }
+ .triangle{
+   display: none;
+ }
+}
 
 /*section intro with paralax*/
 .parallax-window{
@@ -128,7 +125,6 @@ li{
 }
 .bg{
  background-color: #1f1f14;
- height: 300px;
 }
 .triangle {
   width: 60px;
@@ -146,7 +142,6 @@ li{
 }
 .columns{
   display: flex;
-  height: 400px;
   background-color: #e78200;
   align-items: center;
   justify-content: space-between;
@@ -155,20 +150,38 @@ li{
 .two,
 .three{
   width: 33.3%;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
   margin-bottom: 50px;
   text-align: center;
-  /*border: 1px solid red;*/
+}
+@media (max-width: 500px){
+  .columns{
+  flex-direction: column;
+  background-color: transparent;
+  }
+  .one{
+  width: 100%;
+  background-color: #e78200;
+  }
+  .two{
+   width: 100%;
+   background-color: #e78200;
+ }
+  .three{
+   width: 100%;
+   background-color: #e78200;
+ }
 }
 
 /*section news-contact*/
 .flex{
   display: flex;
+  justify-content: space-around;
 }
 .news{
-  width: 69%;
-  /*border: 1px solid green;*/
+  width: 59%;
+  margin-right: 10%;
 }
 .contact-form{
   width: 31%;
@@ -177,14 +190,44 @@ label{
   font-size: 14px;
 }
 .wpcf7-submit{
-  max-width: 200px;
   color: #1f1f14;
   font-size: 20px;
   font-weight: bolder;
   background-color: #FFFAF0;
   border-radius: 10px;
-  margin-left: 30px;
+  margin-left: 30%;
+  padding: 5px 20px;
+  width: inherit;
 }
+div.wpcf7-mail-sent-ng{
+  color: #e78200;
+  border: 2.5px solid #e78200;
+}
+input{
+  border-radius: 5px;
+}
+textarea{
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+br{
+  display: none;
+}
+@media (max-width: 500px){
+  .flex{
+    flex-direction: column;
+  }
+  .news{
+    width: 100%;
+    order: 2;
+  }
+  .contact-form{
+    width: 100%;
+    order: 1;
+  }
+}
+
 /*footer*/
 .footer-site{
   width: 100%;
