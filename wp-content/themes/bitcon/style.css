@@ -123,7 +123,7 @@ li{
   background-repeat: no-repeat;
   float: right;
   color:#e78200;
-  margin: 5px 15px;
+  padding: 13px 35px;
  }
  li{
   display: none;
@@ -223,35 +223,44 @@ li{
   justify-content: space-around;
 }
 .news{
-  width: 59%;
-  margin-right: 10%;
+  margin-left: 3%;
+  width: 61%;
 }
 .contact-form{
-  width: 31%;
+  margin-left: 6%;
+  width: 30%;
 }
 label{
   font-size: 14px;
 }
 .wpcf7-submit{
-  color: #1f1f14;
+  color: white;
+  border: 2px solid #e78200;
   font-size: 20px;
   font-weight: bolder;
-  background-color: #FFFAF0;
+  background-color: #e78200;
   border-radius: 10px;
   margin-left: 30%;
   padding: 5px 20px;
   width: inherit;
 }
+span.wpcf7-not-valid-tip{
+  color: #e78200 !important;
+}
+div.wpcf7-validation-errors,
 div.wpcf7-mail-sent-ng{
   color: #e78200;
-  border: 2.5px solid #e78200;
+  border: 2.5px solid #e78200 !important;
 }
+
+
 input{
   border-radius: 5px;
+  font-family:'Muli', sans-serif;
 }
 textarea{
   border-radius: 5px;
-  font-family: inherit;
+  font-family:'Muli', sans-serif;
 }
 
 br{
@@ -262,7 +271,7 @@ br{
     flex-direction: column;
   }
   .news{
-    width: 100%;
+    width: 95%;
     order: 2;
     padding: 0 10px;
   }
@@ -272,13 +281,18 @@ br{
     padding: 0 10px;
   }
   input{
-    width: 100%;
-    padding: 0 10px;
+    width: 90%;
+    padding: 0 15px;
   }
   textarea{
-    width: 100%;
-    padding: 0 10px;
+    width: 90%;
+    padding: 0 15px;
   }
+  div.wpcf7-validation-errors,
+  div.wpcf7-mail-sent-ng{
+    width: 80%;
+  }
+
 }
 
 /*footer*/
