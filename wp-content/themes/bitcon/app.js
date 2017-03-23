@@ -4,6 +4,7 @@ $(function() {
     var navScrolled = ".logo-scrolled";
     var header = $('header').height();
     var link = $('.menu').find('a');
+    var menu = $('ul');
 
     $(window).scroll(function(event) {
         if ($(this).scrollTop() > header) {
@@ -27,7 +28,6 @@ $(function() {
     $('.parallax-window').parallax({
         imageSrc: templateUrl + '/images/meet.jpg'
     });
-
 
 
 

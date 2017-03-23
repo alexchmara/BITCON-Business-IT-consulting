@@ -63,7 +63,7 @@ p{
    font-size: 1rem;
  }
  h3{
-   font-size: 1rem;
+   font-size: 0.7rem;
  }
  h4{
    font-size: 0.8rem
@@ -81,17 +81,15 @@ p{
 }
 
 .logobitcon{
-  padding: 4px;
-  position: absolute;
-  z-index: 2;
+  float: left;
+  margin: 0 auto;
+  padding-bottom: 4px;
 }
 .logo{
   background-color: #FFFAF0;
   height: 35px;
-  float: left;
   width: 100%;
   padding: 2px 2px;
-  position: relative;
 }
 
 header,
@@ -254,7 +252,6 @@ input{
 textarea{
   border-radius: 5px;
   font-family: inherit;
-  min-width: 312px;
 }
 
 br{
@@ -272,6 +269,14 @@ br{
   .contact-form{
     width: 100%;
     order: 1;
+    padding: 0 10px;
+  }
+  input{
+    width: 100%;
+    padding: 0 10px;
+  }
+  textarea{
+    width: 100%;
     padding: 0 10px;
   }
 }
