@@ -3,6 +3,7 @@
      <div class="footer">
         <div class="copyrights">
             <h3> Copyright &copy; 2017 BITCON </h3>
+            <h3 style="font-size:13px;">Strona korzysta z cookies</h3>
         </div>
 
          <div class="social">

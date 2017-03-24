@@ -1,0 +1,76 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 2017-03-24 09:28:23
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.1.34
+WORDPRESS:	4.7.3
+PHP INFO:	5.6.30 | SAPI: apache2handler
+SERVER:		Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 21.25MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+TABLES: total:13 | filtered:0 | create:13 
+FILTERED: [] 
+SQL CREATED: bitcon_copy_58d4e68fbb89c3054170324092743_database.sql 
+SQL FILE SIZE: 220.71KB (226005) 
+SQL FILE TIME: 2017-03-24 09:28:23 
+SQL RUNTIME: 0.42 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  C:/xampp/htdocs/bitcon 
+ARCHIVE FILE: bitcon_copy_58d4e68fbb89c3054170324092743_archive.zip 
+FILTERS: *ON* 
+DIRS: C:/xampp/htdocs/bitcon/temporary
+      C:/xampp/htdocs/bitcon/.git 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	42.81MB 
+STATS:	Dirs 319 | Files 2,596 
+SQL ADDED: bitcon_copy_58d4e68fbb89c3054170324092743_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2915
+    [filename] => C:\xampp\htdocs\bitcon\wp-snapshots\tmp\bitcon_copy_58d4e68fbb89c3054170324092743_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 19.23MB 
+ARCHIVE RUNTIME: 34.40 sec. 
+MEMORY STACK: 22MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [C:/xampp/htdocs/bitcon/wp-snapshots/tmp/bitcon_copy_58d4e68fbb89c3054170324092743_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 220.71KB 
+Installer File: 394.71KB 
+Archive File: 19.23MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 35.88 sec.
+PEAK PHP MEMORY USED: 24.5MB
+DONE PROCESSING => bitcon_copy 2017-03-24 09:28:59
+ 

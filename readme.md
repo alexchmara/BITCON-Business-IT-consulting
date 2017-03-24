@@ -1,10 +1,12 @@
 BITCON website
 
-final project
+final project / CodersLab
 
 based on:
-HTML
+HTML/Css
 PHP
-Css
 Javascript
 jQuery
+
+
+->responsive < 500px

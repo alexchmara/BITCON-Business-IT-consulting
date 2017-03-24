@@ -5,6 +5,7 @@ $(function() {
     var header = $('header').height();
     var link = $('.menu').find('a');
     var menu = $('ul');
+    var hamburger = $(".hamburger");
 
     $(window).scroll(function(event) {
         if ($(this).scrollTop() > header) {
@@ -12,7 +13,6 @@ $(function() {
         } else {
             nav.removeClass(navScrolled);
         }
-
     });
 
     link.on('click', function(event) {
@@ -28,6 +28,13 @@ $(function() {
     $('.parallax-window').parallax({
         imageSrc: templateUrl + '/images/meet.jpg'
     });
+
+
+
+   hamburger.on('click', function() {
+    menu.toggleClass('expand');
+   });
+
 
 
 

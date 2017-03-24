@@ -123,19 +123,35 @@ li{
   background-repeat: no-repeat;
   float: right;
   color:#e78200;
-  padding: 13px 35px;
+  margin: 13px 35px;
  }
- li{
-  display: none;
+ .hamburger:hover{
+   background-color: #D3D3D3;
+   cursor: pointer;
  }
- .triangle{
-   display: none;
- }
+
  .menu{
    display: none;
  }
+ .expand {
+ 	display: block;
+  position: absolute;
+  margin-top: 50px;
+  font-size: 1rem;
+}
+li{
+  padding: 1px 4px;
+}
 }
 
+.triangle{
+  display: none;
+}
+@media (min-width: 1300px){
+  .triangle{
+    display: inline;
+  }
+}
 /*section intro with paralax*/
 .parallax-window{
   min-height: 500px;
