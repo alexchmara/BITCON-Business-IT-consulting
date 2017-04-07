@@ -18,6 +18,7 @@ $(function() {
     link.on('click', function(event) {
         var href = $(this).attr('href');
         var posTop = $(href).position().top;
+        header = $('header').height();
         $('body,html').animate({
             scrollTop: posTop-header,
         }, 550);
